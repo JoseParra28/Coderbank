@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --background-color: #202020;
+    --font-color: #e8e2e2;
+}
+html {
+    background-color: var(--background-color);
+}
+ul {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    background-color: var(--background-color);
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    color:  #e8e2e2;
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color:  #e8e2e2;
+    transform: rotate(90deg);
+  }
+  .logo {
+    height: 40px;
+  }
+  .links a {
+    color:  #e8e2e2;
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+  }
+  .links a:hover {
+    background: rgb(132, 49, 49);
+    color: rgb(132, 49, 49);
+    padding-left: 1.5rem;
+  }
+  #join-link {
+    background-color:rgb(132, 49, 49);
+    border-radius: 20px;
+  }
+  #join-link:hover{
+    background-color:#e8e2e2 ;
+    color: rgb(132, 49, 49);
+
+  }
+
+  .links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+  }
+  .show-links {
+    height: 10rem;
+  }
+  @media screen and (min-width: 800px) {
+    .nav-center {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+    .nav-header {
+      padding: 0;
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links {
+      height: auto;
+      display: flex;
+    }
+    .links a {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+    }
+   
+  }
+
+  /* ------------------------------------------------- hero section */
+  main {
+    background-color: black;
+  }
+.container {
+    background-color: black;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+aside img {
+    width: 20%;
+}
