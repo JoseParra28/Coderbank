@@ -26,6 +26,12 @@ a {
   background-color: #ddd9d9;
 
 }
+.am-ruler__line {
+  border-color: #FFF;
+  border-width: 1px;
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
 nav {
     background-color: var(--background-color);
   }
@@ -249,4 +255,63 @@ height: 35vh;
   font-size: 2rem;
   font-weight: 100;
 }
-/* -------------------------------------lcredict-section section */
+/* -------------------------------------credict-section section */
+.credict-section {
+  height: 20vh;
+  margin: 0 10% 0 10%;
+}
+.credit-div {
+  display: initial;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+.credit-div h2 {
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.credit-div h6 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.spans-div {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+  color: rgb(132, 49, 49);
+  
+}
+/* -----------------------------Card section */
+.card-container {
+  padding: 2%;
+}
+.card-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 24%;
+  height: 50vh;
+  background-color: #ddd9d9;
+}
+.card h3 {
+  background-color: #ddd9d9;
+  font-size: 3rem;
+  padding: 2%;
+}
+.card h6 {
+  background-color: #ddd9d9;
+  font-size: 2rem;
+  padding: 2%;
+}
+.card img {
+  position: relative;
+  width: 100%;
+}
+.card-btn {
+  background-color: #ddd9d9;
+  font-size: 3rem;
+  color: rgb(132, 49, 49);
+}
+
