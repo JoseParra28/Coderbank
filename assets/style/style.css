@@ -18,6 +18,10 @@ ul {
 a {
     text-decoration: none;
 }
+#h6, #h2 {
+  color: #e8e2e2;
+}
+
 .hero-btn {
   background-color: #ddd9d9;
 
@@ -221,5 +225,28 @@ height: 35vh;
 .reward-info-container i {
   color: #e8e2e2;
   font-size: 2rem;
-
 }
+/* -------------------------------------loan phone section */
+.loan-section {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+.loan-phone {
+  width: 50%;
+  display: inline;
+  justify-content: center;
+}
+.loan-phone h5 {
+  color: #e8e2e2;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.loan-phone h6 {
+  padding-left: 30%;
+  padding-top: 2%;
+  color: #e8e2e2;
+  font-size: 2rem;
+  font-weight: 100;
+}
+/* -------------------------------------lcredict-section section */
